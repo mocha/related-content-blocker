@@ -1,0 +1,28 @@
+!
+! Homepage: http://awesomemonster.com
+! Title: Deuley's Related Content Banhammer
+! Expires: 1 Days
+! Version: 3
+! Last modified: 14 May 2014
+! Description: This filter is designed to knock out (un)related content advertisements from guys like Taboola and Outbrain. It's not targeted at websites displaying related content of their own making.
+!
+! You can report unblocked content to me at patrick.deuley@gmail.com
+!
+
+##.trc_isolation
+##*[class*=taboola]
+##*[id*=taboola]
+##*[class*="zergnet"]
+##*[id*="zergnet"]
+##*[class*="outbrain"]
+##*[id*="outbrain"]
+##*[class*="pubexchange"]
+##*[id*="pubexchange"]
+##*[id="nrelate_related_placeholder"]
+##*[class*="ac_adbox"]
+## #layout .col-promoted
+
+abcnews.go.com##DIV[class="seeitshareit"]
+news.yahoo.com##[id="mediacontentrelatedstory"]
+www.foxnews.com##[class="ac_adbox"]
+disinfo.com##DIV[id="git_wrapper_0"]
