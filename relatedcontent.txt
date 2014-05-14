@@ -1,5 +1,5 @@
 !
-! Homepage: http://awesomemonster.com
+! Homepage: https://github.com/mocha/related-content-blocker
 ! Title: Deuley's Related Content Banhammer
 ! Expires: 1 Days
 ! Version: 3
